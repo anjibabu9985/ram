@@ -1,0 +1,134 @@
+/* Side navbar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1194D3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* Side navbar */
+
+
+body{
+	background-image: url("../img/home2.jpg"); 
+	background-repeat: no-repeat;
+	
+	background-size: 100%;
+}
+
+#soruceLocation{
+	margin-left: -100px;
+}
+
+.navbar-nav{
+  list-style-type: none;  
+}
+.form-control, input[type="text"] {
+   
+    height: 40px;
+	width: 200px;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 12px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ececec;
+    text-transform: capitalize;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-left: 300px;
+	
+}
+input::placeholder { color: black; font-size: 1.8em;}
+
+input[name='sourcePlace']{
+   background-image: url('../img/target.png');
+   background-size: 30px;
+   background-position: 5px 2px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.mine{
+	margin: 100px;
+}
+.nav{
+padding: 5px;	
+}
+header{
+	width: 100%;
+	border-radius: none;
+}
+.navbar, .nav-item{
+	
+	background-color: white;
+	
+	list-style-type: none;
+	padding: 12px;
+	
+	font-size: 20px;
+}
+.nav-link{
+color: black;
+text-decoration: none;
+font-weight: bold;	
+}
+.nav-item
+{
+    text-decoration-line: none;
+    text-decoration: none;
+}
+.pic1{
+	width: 150px;
+	margin-left: 140px;
+}
+.pic2{
+width: 150px;	
+margin-left: 80px;
+}
+.pic3{
+width: 150px;
+margin-left: 50px;	
+}

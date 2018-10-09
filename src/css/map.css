@@ -1,0 +1,30 @@
+#leftdiv{
+    margin-top: 13px;
+    border:1px solid #eee;
+    box-shadow:0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+}
+img{
+    border:  1px solid #000; 
+}
+p,h6{
+    font-size: 11px;
+}
+h5{
+    font-size: 12px;
+}
+#view{
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: #fff;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+#fur{
+    font-size: 11px;color: skyblue;
+}
+iframe{
+    border-left:2px solid #000;
+   
+}

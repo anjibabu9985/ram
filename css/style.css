@@ -1,0 +1,68 @@
+
+body{
+	background-image: url("../images/bg.jpg"); 
+	background-repeat: no-repeat;
+	
+	background-size: 100%;
+}
+.img-logo{
+	margin-left: 450px;
+}
+p{
+color: white;
+text-align: center;
+font-size: 50px;
+text-shadow: 3px 3px gray;	
+}
+span{
+	font-size: 30px;
+}
+
+.form-control, input[type="text"] {
+   
+    height: 60px;
+	width: 500px;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 12px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ececec;
+    text-transform: capitalize;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-left: 300px;
+	
+}
+input::placeholder { color: black; font-size: 1.8em;}
+
+input[name='sourcePlace']{
+   background-image: url('../images/target.png');
+   background-size: 35px;
+   background-position: 448px 13px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.navbar, .nav-item{
+	float: right;
+	
+	
+	list-style-type: none;
+	padding: 12px;
+	
+	font-size: 20px;
+}
+.nav-link{
+color: white;
+text-decoration: none;
+font-weight: bold;	
+}
+
